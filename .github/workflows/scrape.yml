@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 15,23,7 * * *"
 
 permissions:
   contents: write
@@ -33,6 +33,10 @@ jobs:
 
           git add .
 
-          git diff --cached --quiet || git commit -m "update html"
-          git pull --rebase
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "update html"
+            git pull --rebase
+            git push
+          fi
