@@ -55,10 +55,15 @@ const fs = require("fs");
           .locator('meta[property="og:description"]')
           .getAttribute("content");
 
+        console.log("description:");
+        console.log(description);
+
         if (!description) {
           console.log("description not found");
           continue;
         }
+
+        console.log(item.href);
 
         const match = description.match(
           /開催期間\s*([0-9\/:\s]+)\s*-\s*([0-9\/:\s]+)/
