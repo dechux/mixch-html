@@ -24,13 +24,16 @@ const fs = require("fs");
 
     await page.waitForTimeout(5000);
 
-    const links = await page.$$eval(
+const links = await page.$$eval(
   'a[href*="/live/event/"]',
   els =>
-    els.map(e => ({
-      title: e.querySelector("img")?.alt || "",
-      href: e.href
-    }))
+    els
+      .map(e => ({
+        title: e.querySelector("img")?.alt || "",
+        href: e.href
+      }))
+      .filter(e => !e.href.includes("/recruiting"))
+);
 );
 
     console.log(`${links.length} events found`);
