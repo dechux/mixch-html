@@ -3,6 +3,7 @@ const fs = require("fs");
 
 (async () => {
   try {
+
     console.log("Launching browser...");
 
     const browser = await chromium.launch({
@@ -11,12 +12,17 @@ const fs = require("fs");
 
     const page = await browser.newPage();
 
-    console.log("Opening MixChannel...");
+    console.log("Opening event list...");
 
-    await page.goto("https://mixch.tv/live/events", {
-      waitUntil: "domcontentloaded",
-      timeout: 60000
-    });
+    await page.goto(
+      "https://mixch.tv/live/events",
+      {
+        waitUntil: "domcontentloaded",
+        timeout: 60000
+      }
+    );
+
+    await page.waitForTimeout(5000);
 
     const links = await page.$$eval(
       "a.thumb",
@@ -33,25 +39,55 @@ const fs = require("fs");
 
     for (const item of links) {
 
-      console.log(`Opening ${item.href}`);
+      try {
 
-      await page.goto(item.href, {
-        waitUntil: "domcontentloaded",
-        timeout: 60000
-      });
+        console.log(`Processing ${item.href}`);
 
-      const description = await page
-        .locator('meta[property="og:description"]')
-        .getAttribute("content");
+        await page.goto(
+          item.href,
+          {
+            waitUntil: "domcontentloaded",
+            timeout: 60000
+          }
+        );
 
-      const id = item.href.split("/").pop();
+        const description = await page
+          .locator('meta[property="og:description"]')
+          .getAttribute("content");
 
-      events.push({
-        id,
-        title: item.title,
-        url: item.href,
-        description
-      });
+        if (!description) {
+          console.log("description not found");
+          continue;
+        }
+
+        const match = description.match(
+          /開催期間\s*([0-9\/:\s]+)\s*-\s*([0-9\/:\s]+)/
+        );
+
+        if (!match) {
+          console.log("date parse failed");
+          continue;
+        }
+
+        const id = item.href.split("/").pop();
+
+        events.push({
+          id: id,
+          title: item.title,
+          url: item.href,
+          start: match[1].trim(),
+          end: match[2].trim()
+        });
+
+        console.log(`${id} OK`);
+
+      } catch (e) {
+
+        console.log(`ERROR ${item.href}`);
+        console.log(e.message);
+
+      }
+
     }
 
     fs.writeFileSync(
@@ -60,12 +96,14 @@ const fs = require("fs");
       "utf8"
     );
 
-    console.log("Saved events.json");
+    console.log(`Saved ${events.length} events`);
 
     await browser.close();
 
   } catch (err) {
+
     console.error(err);
     process.exit(1);
+
   }
 })();
