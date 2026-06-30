@@ -2,26 +2,40 @@ const { chromium } = require("playwright");
 const fs = require("fs");
 
 (async () => {
-  const browser = await chromium.launch({
-    headless: true
-  });
+  try {
+    console.log("Launching browser...");
 
-  const page = await browser.newPage();
+    const browser = await chromium.launch({
+      headless: true
+    });
 
-  await page.goto("https://mixch.tv/live/events", {
-    waitUntil: "networkidle",
-    timeout: 60000
-  });
+    const page = await browser.newPage();
 
-  // 必要なら待機
-  await page.waitForTimeout(3000);
+    console.log("Opening MixChannel...");
 
-  const html = await page.content();
+    await page.goto("https://mixch.tv/live/events", {
+      waitUntil: "domcontentloaded",
+      timeout: 60000
+    });
 
-  fs.mkdirSync("html", { recursive: true });
-  fs.writeFileSync("html/events.html", html, "utf8");
+    console.log("Page opened.");
 
-  await browser.close();
+    await page.waitForTimeout(5000);
 
-  console.log("saved");
+    const html = await page.content();
+
+    console.log(`HTML length: ${html.length}`);
+
+    fs.mkdirSync("html", { recursive: true });
+    fs.writeFileSync("html/events.html", html, "utf8");
+
+    console.log("Saved HTML.");
+
+    await browser.close();
+
+  } catch (err) {
+    console.error("ERROR:");
+    console.error(err);
+    process.exit(1);
+  }
 })();
