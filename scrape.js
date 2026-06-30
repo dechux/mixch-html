@@ -66,7 +66,7 @@ const fs = require("fs");
         console.log(item.href);
 
         const match = description.match(
-          /開催期間\s*([0-9\/:\s]+)\s*-\s*([0-9\/:\s]+)/
+        /開催期間\s*(.*?)\s*~\s*(.*)/
         );
 
         if (!match) {
