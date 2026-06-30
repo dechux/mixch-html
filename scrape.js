@@ -25,15 +25,26 @@ const fs = require("fs");
     await page.waitForTimeout(5000);
 
     const links = await page.$$eval(
-      "a.thumb",
-      els =>
-        els.map(e => ({
-          title: e.querySelector("img")?.alt || "",
-          href: e.href
-        }))
-    );
+  'a[href*="/live/event/"]',
+  els =>
+    els.map(e => ({
+      title: e.querySelector("img")?.alt || "",
+      href: e.href
+    }))
+);
 
     console.log(`${links.length} events found`);
+    console.log(JSON.stringify(links.slice(0,5), null, 2));
+
+    if (links.length > 0) {
+      console.log(links[0]);
+    }
+
+    fs.writeFileSync(
+      "debug.html",
+      await page.content(),
+      "utf8"
+    );
 
     const events = [];
 
@@ -74,7 +85,7 @@ const fs = require("fs");
           continue;
         }
 
-        const m = item.url.match(/event\/(\d+)/);
+        const m = item.href.match(/event\/(\d+)/);
 
         const id = m ? m[1] : "";
 
