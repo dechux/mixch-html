@@ -31,7 +31,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
 
-          git add html/events.html
+          git add .
 
           git diff --cached --quiet || git commit -m "update html"
           git pull --rebase
