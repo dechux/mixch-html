@@ -92,13 +92,29 @@ const links = await page.$$eval(
 
         const id = m ? m[1] : "";
 
-        events.push({
-          id: id,
-          title: item.title,
-          url: item.href,
-          start: match[1].trim(),
-          end: match[2].trim()
-        });
+let start = match[1].trim();
+let end = match[2].trim();
+
+// 終了時刻が 00:00 の場合は前日24:00表記にする
+if (end.endsWith("00:00")) {
+
+  const d = new Date(end.replace(/\//g, "-"));
+  d.setDate(d.getDate() - 1);
+
+  const yyyy = d.getFullYear();
+  const mm = String(d.getMonth() + 1).padStart(2, "0");
+  const dd = String(d.getDate()).padStart(2, "0");
+
+  end = `${yyyy}/${mm}/${dd} 24:00`;
+}
+
+events.push({
+  id: id,
+  title: item.title,
+  url: item.href,
+  start: start,
+  end: end
+});
 
         console.log(`${id} OK`);
 
