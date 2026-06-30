@@ -111,15 +111,20 @@ const links = await page.$$eval(
 
     }
 
-    fs.writeFileSync(
-      "events.json",
-      JSON.stringify(events, null, 2),
-      "utf8"
-    );
+    // URLで重複削除
+const uniqueEvents = [
+  ...new Map(events.map(e => [e.url, e])).values()
+];
 
-    console.log(`Saved ${events.length} events`);
+fs.writeFileSync(
+  "events.json",
+  JSON.stringify(uniqueEvents, null, 2),
+  "utf8"
+);
 
-    await browser.close();
+console.log(`Saved ${uniqueEvents.length} events`);
+
+await browser.close();
 
   } catch (err) {
 
