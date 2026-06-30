@@ -74,7 +74,9 @@ const fs = require("fs");
           continue;
         }
 
-        const id = item.href.split("/").pop();
+        const m = item.url.match(/event\/(\d+)/);
+
+        const id = m ? m[1] : "";
 
         events.push({
           id: id,
