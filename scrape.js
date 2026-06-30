@@ -18,23 +18,53 @@ const fs = require("fs");
       timeout: 60000
     });
 
-    console.log("Page opened.");
+    const links = await page.$$eval(
+      "a.thumb",
+      els =>
+        els.map(e => ({
+          title: e.querySelector("img")?.alt || "",
+          href: e.href
+        }))
+    );
 
-    await page.waitForTimeout(5000);
+    console.log(`${links.length} events found`);
 
-    const html = await page.content();
+    const events = [];
 
-    console.log(`HTML length: ${html.length}`);
+    for (const item of links) {
 
-    fs.mkdirSync("html", { recursive: true });
-    fs.writeFileSync("html/events.html", html, "utf8");
+      console.log(`Opening ${item.href}`);
 
-    console.log("Saved HTML.");
+      await page.goto(item.href, {
+        waitUntil: "domcontentloaded",
+        timeout: 60000
+      });
+
+      const description = await page
+        .locator('meta[property="og:description"]')
+        .getAttribute("content");
+
+      const id = item.href.split("/").pop();
+
+      events.push({
+        id,
+        title: item.title,
+        url: item.href,
+        description
+      });
+    }
+
+    fs.writeFileSync(
+      "events.json",
+      JSON.stringify(events, null, 2),
+      "utf8"
+    );
+
+    console.log("Saved events.json");
 
     await browser.close();
 
   } catch (err) {
-    console.error("ERROR:");
     console.error(err);
     process.exit(1);
   }
