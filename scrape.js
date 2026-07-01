@@ -3,6 +3,7 @@ const fs = require("fs");
 
 const LIST_URL = "https://mixch.tv/live/events";
 const JSON_PATH = "events.json";
+const MIN_EVENTS = 50;
 
 function getEventId(url) {
   const m = url.match(/event\/(\d+)/);
@@ -10,7 +11,6 @@ function getEventId(url) {
 }
 
 function convertEndTime(end) {
-  // 2026/07/06 00:00 → 2026/07/05 24:00
   if (!end.endsWith("00:00")) return end;
 
   const d = new Date(end.replace(/\//g, "-"));
@@ -24,7 +24,6 @@ function convertEndTime(end) {
 }
 
 function parseEndForCompare(end) {
-  // 24:00 は同日23:59として比較
   if (end.endsWith("24:00")) {
     return new Date(end.replace("24:00", "23:59").replace(/\//g, "-"));
   }
@@ -101,6 +100,12 @@ function loadOldEvents() {
 
     console.log(`${uniqueLinks.length} event links found`);
 
+    if (uniqueLinks.length < MIN_EVENTS) {
+      throw new Error(
+        `Only ${uniqueLinks.length} event links found. Expected at least ${MIN_EVENTS}.`
+      );
+    }
+
     let events = [];
 
     for (const item of uniqueLinks) {
@@ -111,7 +116,6 @@ function loadOldEvents() {
         continue;
       }
 
-      // 既存イベントは詳細ページへアクセスしない
       if (oldMap.has(id)) {
         const old = oldMap.get(id);
 
@@ -125,7 +129,6 @@ function loadOldEvents() {
         continue;
       }
 
-      // 新規イベントだけ詳細ページへアクセス
       try {
         console.log(`New event. Processing ${item.href}`);
 
@@ -174,13 +177,9 @@ function loadOldEvents() {
       }
     }
 
-    // 重複削除
     events = [
       ...new Map(events.map(e => [String(e.id), e])).values()
     ];
-
-    // 取得件数が少なすぎる場合は保存しない
-    const MIN_EVENTS = 50;
 
     if (events.length < MIN_EVENTS) {
       console.error(
@@ -188,10 +187,10 @@ function loadOldEvents() {
         `Expected at least ${MIN_EVENTS}. Skip updating events.json.`
       );
 
-  await browser.close();
-  process.exit(1);
+      await browser.close();
+      process.exit(1);
+    }
 
-    // 終了済みイベントを削除
     const now = new Date();
 
     events = events.filter(e => {
@@ -199,7 +198,6 @@ function loadOldEvents() {
       return endDate >= now;
     });
 
-    // 終了日順に並び替え
     events.sort((a, b) => {
       return parseEndForCompare(a.end) - parseEndForCompare(b.end);
     });
