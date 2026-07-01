@@ -179,6 +179,18 @@ function loadOldEvents() {
       ...new Map(events.map(e => [String(e.id), e])).values()
     ];
 
+    // 取得件数が少なすぎる場合は保存しない
+    const MIN_EVENTS = 50;
+
+    if (events.length < MIN_EVENTS) {
+      console.error(
+        `ERROR: Only ${events.length} events were scraped. ` +
+        `Expected at least ${MIN_EVENTS}. Skip updating events.json.`
+      );
+
+  await browser.close();
+  process.exit(1);
+
     // 終了済みイベントを削除
     const now = new Date();
 
