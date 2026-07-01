@@ -101,12 +101,6 @@ function loadOldEvents() {
 
     console.log(`${uniqueLinks.length} event links found`);
 
-    fs.writeFileSync(
-      "debug.html",
-      await page.content(),
-      "utf8"
-    );
-
     let events = [];
 
     for (const item of uniqueLinks) {
