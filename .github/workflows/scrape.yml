@@ -4,8 +4,14 @@ on:
   workflow_dispatch:
 
   schedule:
-    # 日本時間 0:13 / 8:13 / 16:13
-    - cron: "13 15,23,7 * * *"
+    # 日本時間 7:43
+    - cron: "43 22 * * *"
+
+    # 日本時間 15:43
+    - cron: "43 6 * * *"
+
+    # 日本時間 23:43
+    - cron: "43 14 * * *"
 
 permissions:
   contents: write
@@ -20,13 +26,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 24
+
       - name: Show workflow info
         run: |
           echo "Workflow: $GITHUB_WORKFLOW"
           echo "Workflow ref: $GITHUB_WORKFLOW_REF"
           echo "Commit: $GITHUB_SHA"
+          echo "Schedule: ${{ github.event.schedule }}"
           date -u
-          
+
       - run: npm install
 
       - run: npx playwright install chromium
