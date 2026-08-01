@@ -1,33 +1,5 @@
 [
   {
-    "id": "24484",
-    "title": "千葉ロッテマリーンズ 【ミクチャDAY】 ファーストピッチ投球者決定戦　ラストチャンスイベント",
-    "url": "https://mixch.tv/live/event/24484",
-    "start": "2026/07/28 12:00",
-    "end": "2026/08/01 24:00"
-  },
-  {
-    "id": "24457",
-    "title": "千葉ロッテマリーンズ 【ミクチャDAY】　ZOZOマリンスタジアムで配布!!　うちわモデルオーディション",
-    "url": "https://mixch.tv/live/event/24457",
-    "start": "2026/07/23 12:00",
-    "end": "2026/08/01 24:00"
-  },
-  {
-    "id": "24320",
-    "title": "美男子図鑑 presents　ビジョン主演モデル決定戦",
-    "url": "https://mixch.tv/live/event/24320",
-    "start": "2026/07/17 18:00",
-    "end": "2026/08/01 24:00"
-  },
-  {
-    "id": "24436",
-    "title": "College選抜コンテスト2026本選EXvol.3",
-    "url": "https://mixch.tv/live/event/24436",
-    "start": "2026/07/21 12:00",
-    "end": "2026/08/01 24:00"
-  },
-  {
     "id": "24469",
     "title": " gio by seju・ROOTS by GROVE 所属者限定 ！Ray掲載オーディション＜1st＞ ",
     "url": "https://mixch.tv/live/event/24469",
@@ -497,6 +469,20 @@
     "end": "2026/08/16 24:00"
   },
   {
+    "id": "24402",
+    "title": "MIX PARTY VOL.10 in 10月31日@渋谷CLUB ROSSO バンドステージ バンドメンバーオーディション②",
+    "url": "https://mixch.tv/live/event/24402",
+    "start": "2026/08/01 18:00",
+    "end": "2026/08/16 24:00"
+  },
+  {
+    "id": "24403",
+    "title": "MIX PARTY VOL.10 in 10月31日@渋谷CLUB ROSSO バンドステージ バンドボーカルオーディション",
+    "url": "https://mixch.tv/live/event/24403",
+    "start": "2026/08/01 18:00",
+    "end": "2026/08/16 24:00"
+  },
+  {
     "id": "24490",
     "title": "Miss Wedding Award Season5予選Aスタダ",
     "url": "https://mixch.tv/live/event/24490",
@@ -546,6 +532,20 @@
     "end": "2026/08/24 20:00"
   },
   {
+    "id": "24588",
+    "title": "Sweet Princess Award 2026 〜わたし史上、いちばん好きなわたしへ。〜 <1st STAGE>",
+    "url": "https://mixch.tv/live/event/24588",
+    "start": "2026/08/01 18:00",
+    "end": "2026/08/24 24:00"
+  },
+  {
+    "id": "24584",
+    "title": "美少女図鑑ヒロイン <2026年8月>",
+    "url": "https://mixch.tv/live/event/24584",
+    "start": "2026/08/01 18:00",
+    "end": "2026/08/31 20:00"
+  },
+  {
     "id": "24387",
     "title": "空き時間チャレンジ<8月>",
     "url": "https://mixch.tv/live/event/24387",
@@ -571,6 +571,13 @@
     "title": "ミックマTシャツ屋さん<8月>",
     "url": "https://mixch.tv/live/event/24518",
     "start": "2026/08/01 12:00",
+    "end": "2026/08/31 24:00"
+  },
+  {
+    "id": "24585",
+    "title": "ASOBINEXT ROOKIES CHALLENGE <8月>",
+    "url": "https://mixch.tv/live/event/24585",
+    "start": "2026/08/01 18:00",
     "end": "2026/08/31 24:00"
   },
   {
