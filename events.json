@@ -1,19 +1,5 @@
 [
   {
-    "id": "24869",
-    "title": "特撮女子 特撮男子発掘コンテスト2026 プラットステージ",
-    "url": "https://mixch.tv/live/event/24869",
-    "start": "2026/09/19 12:00",
-    "end": "2026/09/29 20:00"
-  },
-  {
-    "id": "24897",
-    "title": "MEGAFON新メンバーオーディション＜2.5次審査＞",
-    "url": "https://mixch.tv/live/event/24897",
-    "start": "2026/09/12 12:00",
-    "end": "2026/09/29 22:00"
-  },
-  {
     "id": "24928",
     "title": "ミクチャ 秋の超祭 2026",
     "url": "https://mixch.tv/live/event/24928",
@@ -420,6 +406,13 @@
     "end": "2026/10/04 24:00"
   },
   {
+    "id": "24961",
+    "title": "ライバー応援企画　紹介枠<10月>",
+    "url": "https://mixch.tv/live/event/24961",
+    "start": "2026/09/29 12:00",
+    "end": "2026/10/05 24:00"
+  },
+  {
     "id": "24965",
     "title": "ペアで掴もう！推しグッズと共に大阪ドリーム！全員で1,000万ptチャレンジ！",
     "url": "https://mixch.tv/live/event/24965",
@@ -497,6 +490,13 @@
     "end": "2026/10/12 24:00"
   },
   {
+    "id": "25010",
+    "title": "HJ PRODUCTION限定！SAPPORO COLLECTION 2026 AUTUMN/WINTER ランウェイ出演オーディション",
+    "url": "https://mixch.tv/live/event/25010",
+    "start": "2026/09/29 12:00",
+    "end": "2026/10/12 24:00"
+  },
+  {
     "id": "24744",
     "title": "美少女歌祭2026_予選＜Aブロック＞",
     "url": "https://mixch.tv/live/event/24744",
@@ -508,6 +508,13 @@
     "title": "美少女歌祭2026_予選＜Bブロック＞",
     "url": "https://mixch.tv/live/event/24745",
     "start": "2026/09/25 12:00",
+    "end": "2026/10/18 24:00"
+  },
+  {
+    "id": "24722",
+    "title": "ar掲載オーディション 2026 Supported by EARTH ステージ2",
+    "url": "https://mixch.tv/live/event/24722",
+    "start": "2026/09/29 12:00",
     "end": "2026/10/18 24:00"
   },
   {
