@@ -1,19 +1,5 @@
 [
   {
-    "id": "24947",
-    "title": "Cuugal総選挙 2026",
-    "url": "https://mixch.tv/live/event/24947",
-    "start": "2026/09/18 00:00",
-    "end": "2026/09/30 20:00"
-  },
-  {
-    "id": "24811",
-    "title": "美少女図鑑ヒロイン <2026年9月>",
-    "url": "https://mixch.tv/live/event/24811",
-    "start": "2026/09/01 18:00",
-    "end": "2026/09/30 20:00"
-  },
-  {
     "id": "24649",
     "title": "ナルミヤキャラクターズ×ミクチャ コラボグッズプレゼント～あの頃のときめきが、リバイバル。～ September",
     "url": "https://mixch.tv/live/event/24649",
@@ -378,6 +364,13 @@
     "end": "2026/10/04 24:00"
   },
   {
+    "id": "24957",
+    "title": "プロジェクター🎬",
+    "url": "https://mixch.tv/live/event/24957",
+    "start": "2026/09/30 12:00",
+    "end": "2026/10/05 24:00"
+  },
+  {
     "id": "24961",
     "title": "ライバー応援企画　紹介枠<10月>",
     "url": "https://mixch.tv/live/event/24961",
@@ -448,6 +441,13 @@
     "end": "2026/10/11 24:00"
   },
   {
+    "id": "24930",
+    "title": "美少女図鑑DAY2027 in福岡 きものステージランウェイ出演オーディション",
+    "url": "https://mixch.tv/live/event/24930",
+    "start": "2026/09/30 12:00",
+    "end": "2026/10/11 24:00"
+  },
+  {
     "id": "24935",
     "title": "Sweet Princess Award 2026 〜わたし史上、いちばん好きなわたしへ。〜 <Final STAGE>",
     "url": "https://mixch.tv/live/event/24935",
@@ -459,6 +459,13 @@
     "title": "旅行好き発掘コンテスト ステージ3",
     "url": "https://mixch.tv/live/event/24316",
     "start": "2026/09/03 12:00",
+    "end": "2026/10/12 24:00"
+  },
+  {
+    "id": "24981",
+    "title": "PECHE編集部がプロデュース　PECHE 012掲載オーディション",
+    "url": "https://mixch.tv/live/event/24981",
+    "start": "2026/09/30 12:00",
     "end": "2026/10/12 24:00"
   },
   {
