@@ -1,26 +1,5 @@
 [
   {
-    "id": "24815",
-    "title": "Miss.Bouquet ～waso 2026～ Final Stage 1st",
-    "url": "https://mixch.tv/live/event/24815",
-    "start": "2026/09/16 18:00",
-    "end": "2026/10/01 24:00"
-  },
-  {
-    "id": "24952",
-    "title": "サクラバシ919 ミクチャ秋SP 番組出演オーディション",
-    "url": "https://mixch.tv/live/event/24952",
-    "start": "2026/09/24 12:00",
-    "end": "2026/10/01 24:00"
-  },
-  {
-    "id": "24958",
-    "title": "-レベル20以下限定!- Boys & Girls & Voice アマチュア<October>",
-    "url": "https://mixch.tv/live/event/24958",
-    "start": "2026/09/25 12:00",
-    "end": "2026/10/01 24:00"
-  },
-  {
     "id": "25003",
     "title": "SAPPORO COLLECTION 2026 AUTUMN/WINTER NORTH 43 AUDITION for SAPPORO COLLECTION スタートダッシュ①",
     "url": "https://mixch.tv/live/event/25003",
@@ -438,6 +417,13 @@
     "title": "ar掲載オーディション 2026 Supported by EARTH ステージ2",
     "url": "https://mixch.tv/live/event/24722",
     "start": "2026/09/29 12:00",
+    "end": "2026/10/18 24:00"
+  },
+  {
+    "id": "24816",
+    "title": "Miss.Bouquet ～waso 2026～ Final Stage 2nd",
+    "url": "https://mixch.tv/live/event/24816",
+    "start": "2026/10/02 00:00",
     "end": "2026/10/18 24:00"
   },
   {
