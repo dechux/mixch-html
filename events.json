@@ -1,19 +1,5 @@
 [
   {
-    "id": "24982",
-    "title": "JCミスコン2026敗者復活スタートダッシュ",
-    "url": "https://mixch.tv/live/event/24982",
-    "start": "2026/09/25 18:00",
-    "end": "2026/10/04 21:00"
-  },
-  {
-    "id": "24983",
-    "title": "男子中学生ミスターコン2026敗者復活スタートダッシュ",
-    "url": "https://mixch.tv/live/event/24983",
-    "start": "2026/09/25 18:00",
-    "end": "2026/10/04 21:00"
-  },
-  {
     "id": "24984",
     "title": "女子高生ミスコン2026敗者復活予選",
     "url": "https://mixch.tv/live/event/24984",
@@ -432,6 +418,20 @@
     "url": "https://mixch.tv/live/event/24955",
     "start": "2026/10/02 18:00",
     "end": "2026/10/18 22:00"
+  },
+  {
+    "id": "24567",
+    "title": "【Miss】CAMPUS FES 2026第3弾",
+    "url": "https://mixch.tv/live/event/24567",
+    "start": "2026/10/04 12:00",
+    "end": "2026/10/18 24:00"
+  },
+  {
+    "id": "24570",
+    "title": "【Mr】CAMPUS FES 2026第3弾",
+    "url": "https://mixch.tv/live/event/24570",
+    "start": "2026/10/04 12:00",
+    "end": "2026/10/18 24:00"
   },
   {
     "id": "24744",
