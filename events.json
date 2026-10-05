@@ -1,26 +1,5 @@
 [
   {
-    "id": "25017",
-    "title": "ウマガール発掘コンテスト Vol.2 スタートダッシュ",
-    "url": "https://mixch.tv/live/event/25017",
-    "start": "2026/10/01 12:00",
-    "end": "2026/10/05 24:00"
-  },
-  {
-    "id": "24957",
-    "title": "プロジェクター🎬",
-    "url": "https://mixch.tv/live/event/24957",
-    "start": "2026/09/30 12:00",
-    "end": "2026/10/05 24:00"
-  },
-  {
-    "id": "24961",
-    "title": "ライバー応援企画　紹介枠<10月>",
-    "url": "https://mixch.tv/live/event/24961",
-    "start": "2026/09/29 12:00",
-    "end": "2026/10/05 24:00"
-  },
-  {
     "id": "24965",
     "title": "ペアで掴もう！推しグッズと共に大阪ドリーム！全員で1,000万ptチャレンジ！",
     "url": "https://mixch.tv/live/event/24965",
@@ -119,6 +98,20 @@
     "end": "2026/10/09 24:00"
   },
   {
+    "id": "25007",
+    "title": "NEWかわいいルームウェア",
+    "url": "https://mixch.tv/live/event/25007",
+    "start": "2026/10/05 12:00",
+    "end": "2026/10/10 24:00"
+  },
+  {
+    "id": "25009",
+    "title": "10月10日は銭湯の日♨️🫧",
+    "url": "https://mixch.tv/live/event/25009",
+    "start": "2026/10/05 12:00",
+    "end": "2026/10/10 24:00"
+  },
+  {
     "id": "24794",
     "title": "美少女図鑑AWARD2027 一般前期予選",
     "url": "https://mixch.tv/live/event/24794",
@@ -131,6 +124,20 @@
     "url": "https://mixch.tv/live/event/25004",
     "start": "2026/10/01 12:00",
     "end": "2026/10/11 20:00"
+  },
+  {
+    "id": "25030",
+    "title": "JCミスコン2026敗者復活予選",
+    "url": "https://mixch.tv/live/event/25030",
+    "start": "2026/10/05 18:00",
+    "end": "2026/10/11 21:00"
+  },
+  {
+    "id": "25031",
+    "title": "男子中学生ミスターコン2026敗者復活予選",
+    "url": "https://mixch.tv/live/event/25031",
+    "start": "2026/10/05 18:00",
+    "end": "2026/10/11 21:00"
   },
   {
     "id": "24885",
@@ -210,6 +217,27 @@
     "end": "2026/10/11 24:00"
   },
   {
+    "id": "25008",
+    "title": "マカロンに溺れたい🧁🎀",
+    "url": "https://mixch.tv/live/event/25008",
+    "start": "2026/10/05 12:00",
+    "end": "2026/10/11 24:00"
+  },
+  {
+    "id": "25028",
+    "title": "女子高生ミスコン2026敗者復活決勝",
+    "url": "https://mixch.tv/live/event/25028",
+    "start": "2026/10/05 18:00",
+    "end": "2026/10/12 22:00"
+  },
+  {
+    "id": "25029",
+    "title": "男子高生ミスターコン2026敗者復活決勝",
+    "url": "https://mixch.tv/live/event/25029",
+    "start": "2026/10/05 18:00",
+    "end": "2026/10/12 22:00"
+  },
+  {
     "id": "25002",
     "title": "ドン・キホーテ 全国主要都市7店舗で発売！ミクチャチップス モデルプロジェクト【VTuber枠】",
     "url": "https://mixch.tv/live/event/25002",
@@ -259,10 +287,31 @@
     "end": "2026/10/13 24:00"
   },
   {
+    "id": "24997",
+    "title": "次の主役を探せ！カレンダーモデル争奪戦 ",
+    "url": "https://mixch.tv/live/event/24997",
+    "start": "2026/10/05 12:00",
+    "end": "2026/10/13 24:00"
+  },
+  {
+    "id": "25057",
+    "title": "Miss Pop Girl Season5本選EXvol.1",
+    "url": "https://mixch.tv/live/event/25057",
+    "start": "2026/10/05 18:00",
+    "end": "2026/10/14 22:00"
+  },
+  {
     "id": "24953",
     "title": "渋谷大型ビジョン掲載オーディション vol.22",
     "url": "https://mixch.tv/live/event/24953",
     "start": "2026/10/01 12:00",
+    "end": "2026/10/14 24:00"
+  },
+  {
+    "id": "24995",
+    "title": "Ambi.× 雑誌BLOOMOON掲載オーディション\t\t\t\t",
+    "url": "https://mixch.tv/live/event/24995",
+    "start": "2026/10/05 12:00",
     "end": "2026/10/14 24:00"
   },
   {
@@ -301,6 +350,13 @@
     "end": "2026/10/18 22:00"
   },
   {
+    "id": "25038",
+    "title": "Miss Pop Girl Season5予選Cスタートダッシュ②",
+    "url": "https://mixch.tv/live/event/25038",
+    "start": "2026/10/05 18:00",
+    "end": "2026/10/18 22:00"
+  },
+  {
     "id": "24567",
     "title": "【Miss】CAMPUS FES 2026第3弾",
     "url": "https://mixch.tv/live/event/24567",
@@ -329,6 +385,13 @@
     "end": "2026/10/18 24:00"
   },
   {
+    "id": "24496",
+    "title": "LARME×テミス モデル発掘オーディション Season5 FinalSTAGE",
+    "url": "https://mixch.tv/live/event/24496",
+    "start": "2026/10/05 12:00",
+    "end": "2026/10/18 24:00"
+  },
+  {
     "id": "24722",
     "title": "ar掲載オーディション 2026 Supported by EARTH ステージ2",
     "url": "https://mixch.tv/live/event/24722",
@@ -340,6 +403,13 @@
     "title": "Miss.Bouquet ～waso 2026～ Final Stage 2nd",
     "url": "https://mixch.tv/live/event/24816",
     "start": "2026/10/02 00:00",
+    "end": "2026/10/18 24:00"
+  },
+  {
+    "id": "24950",
+    "title": "【GROVE所属者限定】AnyMind Music監修 ショート楽曲提供オーディション＜ステージ1＞ ※延長",
+    "url": "https://mixch.tv/live/event/24950",
+    "start": "2026/10/05 17:00",
     "end": "2026/10/18 24:00"
   },
   {
@@ -369,6 +439,13 @@
     "url": "https://mixch.tv/live/event/24870",
     "start": "2026/10/01 18:00",
     "end": "2026/10/25 20:00"
+  },
+  {
+    "id": "24656",
+    "title": "Miss Pop Girl Season5予選B決勝",
+    "url": "https://mixch.tv/live/event/24656",
+    "start": "2026/10/05 18:00",
+    "end": "2026/10/25 22:00"
   },
   {
     "id": "24324",
