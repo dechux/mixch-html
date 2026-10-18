@@ -1,19 +1,5 @@
 [
   {
-    "id": "25138",
-    "title": "Popteenメイト限定！ 放課後Popteen 出演権争奪戦",
-    "url": "https://mixch.tv/live/event/25138",
-    "start": "2026/10/10 12:00",
-    "end": "2026/10/18 20:00"
-  },
-  {
-    "id": "24853",
-    "title": "「原宿美少女図鑑」創刊号掲載モデルオーディション_後半",
-    "url": "https://mixch.tv/live/event/24853",
-    "start": "2026/10/02 18:00",
-    "end": "2026/10/18 20:00"
-  },
-  {
     "id": "25093",
     "title": "JCミスコン2026敗者復活決勝",
     "url": "https://mixch.tv/live/event/25093",
@@ -406,6 +392,20 @@
     "end": "2026/10/24 24:00"
   },
   {
+    "id": "25131",
+    "title": "お家で焼きたて無限クロワッサン🥐",
+    "url": "https://mixch.tv/live/event/25131",
+    "start": "2026/10/18 12:00",
+    "end": "2026/10/24 24:00"
+  },
+  {
+    "id": "25150",
+    "title": "ペアで協力🤝生チョコレート",
+    "url": "https://mixch.tv/live/event/25150",
+    "start": "2026/10/18 12:00",
+    "end": "2026/10/24 24:00"
+  },
+  {
     "id": "24870",
     "title": "特撮女子 特撮男子発掘コンテスト2026 クライマックスステージ",
     "url": "https://mixch.tv/live/event/24870",
@@ -425,6 +425,13 @@
     "url": "https://mixch.tv/live/event/24656",
     "start": "2026/10/05 18:00",
     "end": "2026/10/25 22:00"
+  },
+  {
+    "id": "25136",
+    "title": "SAPPORO COLLECTION 2026 AUTUMN/WINTER \"UP-T\"STAGE 出演オーディション",
+    "url": "https://mixch.tv/live/event/25136",
+    "start": "2026/10/18 12:00",
+    "end": "2026/10/25 24:00"
   },
   {
     "id": "24324",
@@ -704,6 +711,13 @@
     "title": "ウマガール発掘コンテスト Vol.2 ステージ1",
     "url": "https://mixch.tv/live/event/25018",
     "start": "2026/10/06 12:00",
+    "end": "2026/11/01 24:00"
+  },
+  {
+    "id": "24940",
+    "title": "CAMPUS COLLECTION 2026NIIGATA 中高生ネクストジェネレイションモデル発掘企画_決勝",
+    "url": "https://mixch.tv/live/event/24940",
+    "start": "2026/10/18 18:00",
     "end": "2026/11/01 24:00"
   },
   {
