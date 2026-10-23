@@ -112,17 +112,17 @@
     "end": "2026/10/25 22:00"
   },
   {
-    "id": "24656",
-    "title": "Miss Pop Girl Season5予選B決勝",
-    "url": "https://mixch.tv/live/event/24656",
-    "start": "2026/10/05 18:00",
-    "end": "2026/10/25 22:00"
-  },
-  {
     "id": "25115",
     "title": "SAPPORO COLLECTION 2026 AUTUMN/WINTER ランウェイ出演オーディション<後半戦>",
     "url": "https://mixch.tv/live/event/25115",
     "start": "2026/10/19 18:00",
+    "end": "2026/10/25 22:00"
+  },
+  {
+    "id": "24656",
+    "title": "Miss Pop Girl Season5予選B決勝",
+    "url": "https://mixch.tv/live/event/24656",
+    "start": "2026/10/05 18:00",
     "end": "2026/10/25 22:00"
   },
   {
@@ -385,10 +385,45 @@
     "end": "2026/10/29 20:00"
   },
   {
+    "id": "25083",
+    "title": "第9回『KOGYARU』 専属モデルオーディション_スタダ#1",
+    "url": "https://mixch.tv/live/event/25083",
+    "start": "2026/10/23 17:00",
+    "end": "2026/10/29 24:00"
+  },
+  {
+    "id": "25089",
+    "title": "第4回Natuul専属モデルオーディション_スタダ#1",
+    "url": "https://mixch.tv/live/event/25089",
+    "start": "2026/10/23 17:00",
+    "end": "2026/10/29 24:00"
+  },
+  {
     "id": "25128",
     "title": "【Zipper専属モデル限定】 SAPPORO COLLECTION 2026 AUTUMN/WINTER \"Zipper\" STAGE出演権オーディション",
     "url": "https://mixch.tv/live/event/25128",
     "start": "2026/10/16 12:00",
+    "end": "2026/10/29 24:00"
+  },
+  {
+    "id": "25172",
+    "title": "出雲気分で開運up⇈⛩️",
+    "url": "https://mixch.tv/live/event/25172",
+    "start": "2026/10/23 12:00",
+    "end": "2026/10/29 24:00"
+  },
+  {
+    "id": "25197",
+    "title": "ミクチャバナーモデルイベント<10月>",
+    "url": "https://mixch.tv/live/event/25197",
+    "start": "2026/10/23 12:00",
+    "end": "2026/10/29 24:00"
+  },
+  {
+    "id": "25207",
+    "title": "ぱふゅーむ♡ぷりちー",
+    "url": "https://mixch.tv/live/event/25207",
+    "start": "2026/10/23 12:00",
     "end": "2026/10/29 24:00"
   },
   {
@@ -410,6 +445,13 @@
     "title": "神コスパ💄コスメ『kirei&co.』新商品PRモデルオーディション incubation GEM・gio by seju 枠",
     "url": "https://mixch.tv/live/event/25196",
     "start": "2026/10/21 12:00",
+    "end": "2026/10/31 20:00"
+  },
+  {
+    "id": "25241",
+    "title": "「山陰美少女図鑑」創刊号掲載モデルオーディション_スタートダッシュ",
+    "url": "https://mixch.tv/live/event/25241",
+    "start": "2026/10/23 18:00",
     "end": "2026/10/31 20:00"
   },
   {
@@ -455,6 +497,13 @@
     "end": "2026/10/31 24:00"
   },
   {
+    "id": "25175",
+    "title": "「あなたの声が、番組になる。」オリジナルラジオ番組パーソナリティ争奪戦",
+    "url": "https://mixch.tv/live/event/25175",
+    "start": "2026/10/23 12:00",
+    "end": "2026/10/31 24:00"
+  },
+  {
     "id": "25211",
     "title": "【ミクメイト限定】ミクチャフレンズコラボ企画！駅中吊りモデルオーディション",
     "url": "https://mixch.tv/live/event/25211",
@@ -480,6 +529,13 @@
     "title": "美少女図鑑DAY2027 in福岡 WEDDING DRESS STAGE 出演オーディション",
     "url": "https://mixch.tv/live/event/25054",
     "start": "2026/10/22 12:00",
+    "end": "2026/10/31 24:00"
+  },
+  {
+    "id": "25134",
+    "title": "Bloom Collection ~ガーベラ~【公募枠】",
+    "url": "https://mixch.tv/live/event/25134",
+    "start": "2026/10/23 18:00",
     "end": "2026/10/31 24:00"
   },
   {
@@ -585,6 +641,13 @@
     "title": "ASOBINEXT ROOKIES CHALLENGE <10月>  ",
     "url": "https://mixch.tv/live/event/25043",
     "start": "2026/10/01 18:00",
+    "end": "2026/10/31 24:00"
+  },
+  {
+    "id": "25192",
+    "title": "ポカポカ環境で配信🎶",
+    "url": "https://mixch.tv/live/event/25192",
+    "start": "2026/10/23 12:00",
     "end": "2026/10/31 24:00"
   },
   {
@@ -705,6 +768,13 @@
     "url": "https://mixch.tv/live/event/24817",
     "start": "2026/10/21 18:00",
     "end": "2026/11/07 24:00"
+  },
+  {
+    "id": "25240",
+    "title": "美少女図鑑AWARD2027 後期スタートダッシュ①",
+    "url": "https://mixch.tv/live/event/25240",
+    "start": "2026/10/23 18:00",
+    "end": "2026/11/08 20:00"
   },
   {
     "id": "24641",
