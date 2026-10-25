@@ -1,12 +1,5 @@
 [
   {
-    "id": "24870",
-    "title": "特撮女子 特撮男子発掘コンテスト2026 クライマックスステージ",
-    "url": "https://mixch.tv/live/event/24870",
-    "start": "2026/10/01 18:00",
-    "end": "2026/10/25 20:00"
-  },
-  {
     "id": "25095",
     "title": "第14回 日本制服アワード_前半",
     "url": "https://mixch.tv/live/event/25095",
@@ -567,6 +560,13 @@
     "end": "2026/10/31 24:00"
   },
   {
+    "id": "25214",
+    "title": "ミックマート🛒 -クリアポーチ編-",
+    "url": "https://mixch.tv/live/event/25214",
+    "start": "2026/10/25 12:00",
+    "end": "2026/10/31 24:00"
+  },
+  {
     "id": "24996",
     "title": "空き時間チャレンジ<10月>",
     "url": "https://mixch.tv/live/event/24996",
@@ -712,6 +712,13 @@
     "url": "https://mixch.tv/live/event/25223",
     "start": "2026/10/22 18:00",
     "end": "2026/11/01 24:00"
+  },
+  {
+    "id": "25059",
+    "title": "Miss Pop Girl Season5本選EXvol.3",
+    "url": "https://mixch.tv/live/event/25059",
+    "start": "2026/10/25 18:00",
+    "end": "2026/11/03 22:00"
   },
   {
     "id": "25220",
