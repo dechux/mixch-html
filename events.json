@@ -1,19 +1,5 @@
 [
   {
-    "id": "25225",
-    "title": "平成アニメVS令和アニメ！どっちが好き？",
-    "url": "https://mixch.tv/live/event/25225",
-    "start": "2026/10/28 12:00",
-    "end": "2026/11/02 24:00"
-  },
-  {
-    "id": "25244",
-    "title": "Stockしたくなる、至福のSoup",
-    "url": "https://mixch.tv/live/event/25244",
-    "start": "2026/10/28 12:00",
-    "end": "2026/11/02 24:00"
-  },
-  {
     "id": "25059",
     "title": "Miss Pop Girl Season5本選EXvol.3",
     "url": "https://mixch.tv/live/event/25059",
@@ -252,11 +238,32 @@
     "end": "2026/11/08 24:00"
   },
   {
+    "id": "25249",
+    "title": "ふわふわスクイーズ",
+    "url": "https://mixch.tv/live/event/25249",
+    "start": "2026/11/02 12:00",
+    "end": "2026/11/08 24:00"
+  },
+  {
+    "id": "25255",
+    "title": "11月08日 いいお肌の日💧✨",
+    "url": "https://mixch.tv/live/event/25255",
+    "start": "2026/11/02 12:00",
+    "end": "2026/11/08 24:00"
+  },
+  {
     "id": "25258",
     "title": "次の主役を探せ！カレンダーモデル争奪戦  ",
     "url": "https://mixch.tv/live/event/25258",
     "start": "2026/11/01 12:00",
     "end": "2026/11/08 24:00"
+  },
+  {
+    "id": "25270",
+    "title": "mindseeker girls × 雑誌BLOOMOON掲載オーディション",
+    "url": "https://mixch.tv/live/event/25270",
+    "start": "2026/11/02 12:00",
+    "end": "2026/11/12 24:00"
   },
   {
     "id": "25291",
@@ -271,6 +278,34 @@
     "url": "https://mixch.tv/live/event/25184",
     "start": "2026/10/31 05:00",
     "end": "2026/11/15 20:00"
+  },
+  {
+    "id": "25333",
+    "title": "RUNWAY 2026【JC部門】",
+    "url": "https://mixch.tv/live/event/25333",
+    "start": "2026/11/02 18:00",
+    "end": "2026/11/15 21:00"
+  },
+  {
+    "id": "25334",
+    "title": "RUNWAY 2026【男子中学生部門】 ",
+    "url": "https://mixch.tv/live/event/25334",
+    "start": "2026/11/02 18:00",
+    "end": "2026/11/15 21:00"
+  },
+  {
+    "id": "25331",
+    "title": "RUNWAY 2026【女子高生部門】 ",
+    "url": "https://mixch.tv/live/event/25331",
+    "start": "2026/11/02 18:00",
+    "end": "2026/11/15 22:00"
+  },
+  {
+    "id": "25332",
+    "title": "RUNWAY 2026【男子高生部門】",
+    "url": "https://mixch.tv/live/event/25332",
+    "start": "2026/11/02 18:00",
+    "end": "2026/11/15 22:00"
   },
   {
     "id": "25221",
@@ -301,6 +336,13 @@
     "end": "2026/11/15 24:00"
   },
   {
+    "id": "25268",
+    "title": "幸運のシャンパン『4 Leaf Clover』PRモデル獲得バトル vol.2",
+    "url": "https://mixch.tv/live/event/25268",
+    "start": "2026/11/02 12:00",
+    "end": "2026/11/15 24:00"
+  },
+  {
     "id": "25188",
     "title": "スポーツ女子発掘コンテスト Supported by ムラサキスポーツ原宿明治通り店 ステージ1",
     "url": "https://mixch.tv/live/event/25188",
@@ -308,11 +350,46 @@
     "end": "2026/11/22 24:00"
   },
   {
+    "id": "25281",
+    "title": "JCミスコン2026 ラスト応援プロジェクト",
+    "url": "https://mixch.tv/live/event/25281",
+    "start": "2026/11/02 18:00",
+    "end": "2026/11/25 21:00"
+  },
+  {
+    "id": "25282",
+    "title": "男子中学生ミスターコン2026 ラスト応援プロジェクト",
+    "url": "https://mixch.tv/live/event/25282",
+    "start": "2026/11/02 18:00",
+    "end": "2026/11/25 21:00"
+  },
+  {
+    "id": "25279",
+    "title": "女子高生ミスコン2026 ラスト応援プロジェクト",
+    "url": "https://mixch.tv/live/event/25279",
+    "start": "2026/11/02 18:00",
+    "end": "2026/11/25 22:00"
+  },
+  {
+    "id": "25280",
+    "title": "男子高生ミスターコン2026 ラスト応援プロジェクト",
+    "url": "https://mixch.tv/live/event/25280",
+    "start": "2026/11/02 18:00",
+    "end": "2026/11/25 22:00"
+  },
+  {
     "id": "24723",
     "title": "ar掲載オーディション 2026 Supported by EARTH ステージ3",
     "url": "https://mixch.tv/live/event/24723",
     "start": "2026/10/21 12:00",
     "end": "2026/11/28 24:00"
+  },
+  {
+    "id": "25324",
+    "title": "LVS専属モデルーオーディション",
+    "url": "https://mixch.tv/live/event/25324",
+    "start": "2026/11/02 17:00",
+    "end": "2026/11/29 22:00"
   },
   {
     "id": "24746",
@@ -375,6 +452,13 @@
     "title": "ASOBINEXT ROOKIES CHALLENGE <11月> ",
     "url": "https://mixch.tv/live/event/25319",
     "start": "2026/11/01 18:00",
+    "end": "2026/11/30 24:00"
+  },
+  {
+    "id": "25327",
+    "title": "ギフト券GET！5,000pt＆20,000pt達成チャレンジ【2026年11月】 ",
+    "url": "https://mixch.tv/live/event/25327",
+    "start": "2026/11/02 18:00",
     "end": "2026/11/30 24:00"
   },
   {
