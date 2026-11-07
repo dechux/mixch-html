@@ -1,47 +1,5 @@
 [
   {
-    "id": "24795",
-    "title": "美少女図鑑AWARD2027 一般前期決勝",
-    "url": "https://mixch.tv/live/event/24795",
-    "start": "2026/10/16 18:00",
-    "end": "2026/11/07 20:00"
-  },
-  {
-    "id": "25297",
-    "title": "Miss.Bouquet ~The Dress~ ラウンドブーケ",
-    "url": "https://mixch.tv/live/event/25297",
-    "start": "2026/11/01 18:00",
-    "end": "2026/11/07 24:00"
-  },
-  {
-    "id": "24817",
-    "title": "Miss.Bouquet ～waso 2026～ Grand Prix Stage",
-    "url": "https://mixch.tv/live/event/24817",
-    "start": "2026/10/21 18:00",
-    "end": "2026/11/07 24:00"
-  },
-  {
-    "id": "25230",
-    "title": "あの名曲を、もう一度。RAKE 100万回の「I love you」ショートMV出演オーディション 予選",
-    "url": "https://mixch.tv/live/event/25230",
-    "start": "2026/11/03 12:00",
-    "end": "2026/11/07 24:00"
-  },
-  {
-    "id": "25233",
-    "title": "そうだ！旅行にいこう<11月>",
-    "url": "https://mixch.tv/live/event/25233",
-    "start": "2026/11/01 12:00",
-    "end": "2026/11/07 24:00"
-  },
-  {
-    "id": "25254",
-    "title": "極上のご褒美 〜献上品・御用達コレクション〜",
-    "url": "https://mixch.tv/live/event/25254",
-    "start": "2026/11/01 12:00",
-    "end": "2026/11/07 24:00"
-  },
-  {
     "id": "25240",
     "title": "美少女図鑑AWARD2027 後期スタートダッシュ①",
     "url": "https://mixch.tv/live/event/25240",
@@ -217,6 +175,20 @@
     "end": "2026/11/13 24:00"
   },
   {
+    "id": "25308",
+    "title": "じゅわっと明太フランス🥖🇫🇷",
+    "url": "https://mixch.tv/live/event/25308",
+    "start": "2026/11/07 12:00",
+    "end": "2026/11/13 24:00"
+  },
+  {
+    "id": "25298",
+    "title": "Miss.Bouquet ~The Dress~ オーバルブーケ",
+    "url": "https://mixch.tv/live/event/25298",
+    "start": "2026/11/08 00:00",
+    "end": "2026/11/14 24:00"
+  },
+  {
     "id": "25306",
     "title": "Kライバー限定！アウトドア好き発掘オーディション Supported by ogawa",
     "url": "https://mixch.tv/live/event/25306",
@@ -228,6 +200,13 @@
     "title": "sweet16委員会新メンバーオーディション2026＜二次選考＞ 後半戦",
     "url": "https://mixch.tv/live/event/25184",
     "start": "2026/10/31 05:00",
+    "end": "2026/11/15 20:00"
+  },
+  {
+    "id": "25354",
+    "title": "私が彩る、大阪の街。 〜美少女図鑑 公式撮影＆駅ポスターモデルオーディション〜",
+    "url": "https://mixch.tv/live/event/25354",
+    "start": "2026/11/07 12:00",
     "end": "2026/11/15 20:00"
   },
   {
@@ -334,6 +313,34 @@
     "url": "https://mixch.tv/live/event/25122",
     "start": "2026/11/05 12:00",
     "end": "2026/11/16 24:00"
+  },
+  {
+    "id": "25349",
+    "title": "Kライバー限定！大阪ドリーム！シティジャックチャレンジ！",
+    "url": "https://mixch.tv/live/event/25349",
+    "start": "2026/11/07 12:00",
+    "end": "2026/11/18 24:00"
+  },
+  {
+    "id": "25304",
+    "title": "MODEL FRAME AWARD",
+    "url": "https://mixch.tv/live/event/25304",
+    "start": "2026/11/07 12:00",
+    "end": "2026/11/20 24:00"
+  },
+  {
+    "id": "25307",
+    "title": "ペアで協力！平成Y2K風デフォルメキャライラスト&シール制作オーディション！",
+    "url": "https://mixch.tv/live/event/25307",
+    "start": "2026/11/07 12:00",
+    "end": "2026/11/20 24:00"
+  },
+  {
+    "id": "25126",
+    "title": "CAMPUS COLLECTION 2026 SENDAI 中高生ネクストジェネレイションモデル発掘企画_決勝",
+    "url": "https://mixch.tv/live/event/25126",
+    "start": "2026/11/07 18:00",
+    "end": "2026/11/21 24:00"
   },
   {
     "id": "25242",
