@@ -1,19 +1,5 @@
 [
   {
-    "id": "25274",
-    "title": "🍚🍂 食欲の秋！ご飯のお供で白米無限ループ♡",
-    "url": "https://mixch.tv/live/event/25274",
-    "start": "2026/11/03 12:00",
-    "end": "2026/11/09 24:00"
-  },
-  {
-    "id": "25271",
-    "title": "赤いリボンの女の子🐱🎀",
-    "url": "https://mixch.tv/live/event/25271",
-    "start": "2026/11/03 12:00",
-    "end": "2026/11/09 24:00"
-  },
-  {
     "id": "25275",
     "title": "もこもこアワード🐏💭",
     "url": "https://mixch.tv/live/event/25275",
@@ -147,6 +133,13 @@
     "end": "2026/11/15 22:00"
   },
   {
+    "id": "25347",
+    "title": "SBI GROUP presents TGC TOYAMA 2026 by TOKYO GIRLS COLLECTION ランウェイモデルオーディション",
+    "url": "https://mixch.tv/live/event/25347",
+    "start": "2026/11/09 12:00",
+    "end": "2026/11/15 24:00"
+  },
+  {
     "id": "25221",
     "title": "韓国コスメブランド「RRRing」渋谷駅看板モデルオーディション【ミクチャ枠】",
     "url": "https://mixch.tv/live/event/25221",
@@ -179,6 +172,13 @@
     "title": "SUPER STAR LEAGUE -チャンピオンシップ-",
     "url": "https://mixch.tv/live/event/25290",
     "start": "2026/11/05 12:00",
+    "end": "2026/11/15 24:00"
+  },
+  {
+    "id": "25296",
+    "title": "年末年始掲載　渋谷“超”大型ビジョン　ミクチャCMモデルオーディション",
+    "url": "https://mixch.tv/live/event/25296",
+    "start": "2026/11/09 12:00",
     "end": "2026/11/15 24:00"
   },
   {
@@ -224,11 +224,32 @@
     "end": "2026/11/15 24:00"
   },
   {
+    "id": "25325",
+    "title": "中華まん好きなだけ🐼",
+    "url": "https://mixch.tv/live/event/25325",
+    "start": "2026/11/09 12:00",
+    "end": "2026/11/15 24:00"
+  },
+  {
     "id": "25122",
     "title": "Miss Wedding Award Season5本選EXvol.3",
     "url": "https://mixch.tv/live/event/25122",
     "start": "2026/11/05 12:00",
     "end": "2026/11/16 24:00"
+  },
+  {
+    "id": "25311",
+    "title": "【VTuber限定/ Dランク以下限定】ポスターモデル起用！元祖トマトラーメン333×ミクチャ広告モデルオーディション",
+    "url": "https://mixch.tv/live/event/25311",
+    "start": "2026/11/09 12:00",
+    "end": "2026/11/18 24:00"
+  },
+  {
+    "id": "25312",
+    "title": "【VTuber限定】ポスターモデル起用！元祖トマトラーメン333×ミクチャ広告モデルオーディション",
+    "url": "https://mixch.tv/live/event/25312",
+    "start": "2026/11/09 12:00",
+    "end": "2026/11/18 24:00"
   },
   {
     "id": "25349",
@@ -287,10 +308,24 @@
     "end": "2026/11/22 24:00"
   },
   {
+    "id": "24862",
+    "title": "CAMPUS BOYS/GIRLS 2027本選EXvol.4",
+    "url": "https://mixch.tv/live/event/24862",
+    "start": "2026/11/09 12:00",
+    "end": "2026/11/22 24:00"
+  },
+  {
     "id": "25019",
     "title": "ウマガール発掘コンテスト Vol.2 ステージ2",
     "url": "https://mixch.tv/live/event/25019",
     "start": "2026/11/05 12:00",
+    "end": "2026/11/22 24:00"
+  },
+  {
+    "id": "25317",
+    "title": "『I-nique』初代専属モデルオーディション_スタートダッシュ",
+    "url": "https://mixch.tv/live/event/25317",
+    "start": "2026/11/09 18:00",
     "end": "2026/11/22 24:00"
   },
   {
