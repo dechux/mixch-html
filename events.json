@@ -1,26 +1,5 @@
 [
   {
-    "id": "25328",
-    "title": "ライバー応援企画　ミクチャグッズ編<11月> ",
-    "url": "https://mixch.tv/live/event/25328",
-    "start": "2026/11/13 12:00",
-    "end": "2026/11/19 24:00"
-  },
-  {
-    "id": "25345",
-    "title": "お家ケア🪥ホワイトニング歯磨き決定戦🦷",
-    "url": "https://mixch.tv/live/event/25345",
-    "start": "2026/11/13 12:00",
-    "end": "2026/11/19 24:00"
-  },
-  {
-    "id": "25355",
-    "title": "エモさ爆発！レトロミュージックNight",
-    "url": "https://mixch.tv/live/event/25355",
-    "start": "2026/11/13 12:00",
-    "end": "2026/11/19 24:00"
-  },
-  {
     "id": "25304",
     "title": "MODEL FRAME AWARD",
     "url": "https://mixch.tv/live/event/25304",
@@ -546,17 +525,17 @@
     "end": "2026/11/30 20:00"
   },
   {
-    "id": "24875",
-    "title": "地上波TV出演権利争奪オーディション Supported by カタマリ ステージ3",
-    "url": "https://mixch.tv/live/event/24875",
-    "start": "2026/10/29 12:00",
-    "end": "2026/11/30 24:00"
-  },
-  {
     "id": "25360",
     "title": "ペアで協力！秋の旅好きタレント発掘オーディション AUTUMN TRAVEL AWARD 2026",
     "url": "https://mixch.tv/live/event/25360",
     "start": "2026/11/19 12:00",
+    "end": "2026/11/30 24:00"
+  },
+  {
+    "id": "24875",
+    "title": "地上波TV出演権利争奪オーディション Supported by カタマリ ステージ3",
+    "url": "https://mixch.tv/live/event/24875",
+    "start": "2026/10/29 12:00",
     "end": "2026/11/30 24:00"
   },
   {
