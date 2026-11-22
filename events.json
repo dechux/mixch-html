@@ -1,26 +1,5 @@
 [
   {
-    "id": "25433",
-    "title": "めるぷちオーディション2027＜スタートダッシュ＞",
-    "url": "https://mixch.tv/live/event/25433",
-    "start": "2026/11/18 05:00",
-    "end": "2026/11/22 20:00"
-  },
-  {
-    "id": "25242",
-    "title": "「山陰美少女図鑑」創刊号掲載モデルオーディション_ステージ1",
-    "url": "https://mixch.tv/live/event/25242",
-    "start": "2026/11/06 18:00",
-    "end": "2026/11/22 20:00"
-  },
-  {
-    "id": "25413",
-    "title": "Miss Pop Girl Season5敗者復活スタートダッシュ",
-    "url": "https://mixch.tv/live/event/25413",
-    "start": "2026/11/16 18:00",
-    "end": "2026/11/22 22:00"
-  },
-  {
     "id": "25078",
     "title": "#キャンアワ2027 ｜ CampusAward 2027 ＜予選シードB＞ フェーズ1",
     "url": "https://mixch.tv/live/event/25078",
@@ -371,6 +350,27 @@
     "end": "2026/11/28 24:00"
   },
   {
+    "id": "25379",
+    "title": "🖐🏻しっとり無双🖐🏻",
+    "url": "https://mixch.tv/live/event/25379",
+    "start": "2026/11/22 12:00",
+    "end": "2026/11/28 24:00"
+  },
+  {
+    "id": "25408",
+    "title": "ぷとちょっを大量",
+    "url": "https://mixch.tv/live/event/25408",
+    "start": "2026/11/22 12:00",
+    "end": "2026/11/28 24:00"
+  },
+  {
+    "id": "25409",
+    "title": "-レベル10以下限定！- ライバー×ライバー Beginner試験<November>",
+    "url": "https://mixch.tv/live/event/25409",
+    "start": "2026/11/22 12:00",
+    "end": "2026/11/28 24:00"
+  },
+  {
     "id": "25456",
     "title": "『いつめん最高』目指せ最前列！席替えバトル＜11月＞",
     "url": "https://mixch.tv/live/event/25456",
@@ -712,6 +712,13 @@
     "url": "https://mixch.tv/live/event/25081",
     "start": "2026/11/05 18:00",
     "end": "2026/12/17 24:00"
+  },
+  {
+    "id": "25476",
+    "title": "DAZN×ミクチャ『NEXT STAR PROJECT』",
+    "url": "https://mixch.tv/live/event/25476",
+    "start": "2026/11/22 12:00",
+    "end": "2026/12/31 24:00"
   },
   {
     "id": "25037",
